@@ -13,10 +13,10 @@
     ==> JSON.strigify()를 이용해서 자바스크립트 객체를 string으로 바꿔줌
 
 * .filter(함수)    
-'''    const cleanToDos = toDos.filter(filterFn)
+```    const cleanToDos = toDos.filter(filterFn)
 toDos 배열의 모든 아이템을 통해 filterFn함수를 실행해서,    
 함수 결과 true인 아이템들로 새로운 배열을 만듦
-'''
+```
 
 ``` .forEach     
     또한 .filter와 같이 list에 있는 모든 item을 위한 함수를 실행시킴
