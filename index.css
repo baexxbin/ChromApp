@@ -1,3 +1,66 @@
 body{
-    background-color:bisque
+    margin: 0 auto;
+    width: 300px;
+    background-color: #2c3e50;	
+    font-family: 'paybooc-Bold';
+}
+
+h1{
+    font-size: 7em;
+    width: 200px;
+}
+
+h4{
+    font-size: 2em;
+}
+
+.mid{
+    font-size: 1.5em;
+    text-align: justify;
+    position: relative;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+body {
+    color: rgb(241, 238, 238);
+}
+.clicked{
+    color:rgb(92, 143, 194);
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+@keyframes fadeIn{
+    form{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
