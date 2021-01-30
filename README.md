@@ -4,7 +4,8 @@
     : 이벤트가 실행될때 디폴트로 작동하는것 막기    
         ex) 엔터누르고 새로고침X     
 
-* queryselector: html에서 필요한 내용을 가져온거라면,    
+* queryselector     
+    html에서 필요한 내용을 가져온거라면,    
     바로 js에서 생성하고 싶으면    
     " document.createElement() "    
 
